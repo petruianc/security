@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/home")
 @CrossOrigin(origins = "*")
-public class HomeRestController {
+public class  HomeRestController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
